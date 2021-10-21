@@ -502,6 +502,21 @@ p {
     font-size: 15px;
 }
 
+.hero-content .list-social li .fa-facebook,
+.fa-instagram,
+.fa-linkedin,
+.fa-github {
+    color: #fff;
+}
+
+.hero-content .list-social li .fa-facebook:hover,
+.fa-instagram:hover,
+.fa-linkedin:hover,
+.fa-github:hover {
+    color: #b8a07e;
+    transition: ease-in-out 0.35s;
+}
+
 
 /*--------------------------------------------------------------
   # Breadcrumbs
@@ -602,6 +617,17 @@ p {
     max-width: 80%;
     margin-bottom: 0;
     text-align: left;
+}
+
+#about .about-descr .btn {
+    border-radius: 30px;
+    background-color: #830404;
+    margin-top: 30px;
+}
+
+#about .about-descr .btn:hover {
+    color: #0a0b0c;
+    background-color: #b8a07e;
 }
 
 
