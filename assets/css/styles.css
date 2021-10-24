@@ -1,11 +1,3 @@
-/**
-* Template Name: Folio - v4.6.0
-* Template URL: https://bootstrapmade.com/folio-bootstrap-portfolio-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
-
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -358,7 +350,7 @@ p {
     transition: 0.5s;
 }
 
-.mobile-nav-toggle.fas-x {
+.mobile-nav-toggle.bi-x {
     color: #fff;
 }
 
@@ -460,7 +452,7 @@ p {
   --------------------------------------------------------------*/
 
 #hero {
-    background: url("../img/profile.jpg    ") repeat scroll center center/cover;
+    background: url("../img/imagem-principal.jpg    ") repeat scroll center center/cover;
     height: 100vh;
     width: 100%;
 }
@@ -515,67 +507,6 @@ p {
 .fa-github:hover {
     color: #b8a07e;
     transition: ease-in-out 0.35s;
-}
-
-
-/*--------------------------------------------------------------
-  # Breadcrumbs
-  --------------------------------------------------------------*/
-
-.breadcrumbs {
-    padding: 120px 0 0 0;
-    background-color: white;
-    min-height: 40px;
-}
-
-@media (max-width: 992px) {
-    .breadcrumbs {
-        padding-top: 100px;
-    }
-}
-
-.breadcrumbs h2 {
-    font-size: 24px;
-    font-weight: 300;
-    margin: 0;
-}
-
-@media (max-width: 992px) {
-    .breadcrumbs h2 {
-        margin: 0 0 10px 0;
-    }
-}
-
-.breadcrumbs ol {
-    display: flex;
-    flex-wrap: wrap;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    font-size: 14px;
-}
-
-.breadcrumbs ol li+li {
-    padding-left: 10px;
-}
-
-.breadcrumbs ol li+li::before {
-    display: inline-block;
-    padding-right: 10px;
-    color: #6c757d;
-    content: "/";
-}
-
-@media (max-width: 768px) {
-    .breadcrumbs .d-flex {
-        display: block !important;
-    }
-    .breadcrumbs ol {
-        display: block;
-    }
-    .breadcrumbs ol li {
-        display: inline-block;
-    }
 }
 
 
@@ -777,8 +708,8 @@ p {
 
 
 /*--------------------------------------------------------------
-  # Portfolio Details
-  --------------------------------------------------------------*/
+# Portfolio Details
+--------------------------------------------------------------*/
 
 .portfolio-details {
     padding-top: 40px;
@@ -903,99 +834,6 @@ p {
 
 
 /*--------------------------------------------------------------
-  # Journal
-  --------------------------------------------------------------*/
-
-#contact {
-    height: auto;
-    width: 100%;
-}
-
-.contact-details {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
-.contact-details li {
-    padding-bottom: 10px;
-}
-
-#contact input,
-#contact textarea {
-    width: 100%;
-    margin-bottom: 5px;
-}
-
-#contact textarea {
-    min-height: 160px;
-}
-
-.php-email-form .error-message {
-    display: none;
-    color: #fff;
-    background: #ed3c0d;
-    text-align: left;
-    padding: 15px;
-    margin-bottom: 15px;
-    font-weight: 600;
-}
-
-.php-email-form .error-message br+br {
-    margin-top: 25px;
-}
-
-.php-email-form .sent-message {
-    display: none;
-    color: #fff;
-    background: #18d26e;
-    text-align: center;
-    padding: 15px;
-    font-weight: 600;
-    margin-bottom: 15px;
-}
-
-.php-email-form .loading {
-    display: none;
-    background: #fff;
-    text-align: center;
-    padding: 15px;
-    margin-bottom: 15px;
-}
-
-.php-email-form .loading:before {
-    content: "";
-    display: inline-block;
-    border-radius: 50%;
-    width: 24px;
-    height: 24px;
-    margin: 0 10px -6px 0;
-    border: 3px solid #18d26e;
-    border-top-color: #eee;
-    -webkit-animation: animate-loading 1s linear infinite;
-    animation: animate-loading 1s linear infinite;
-}
-
-@-webkit-keyframes animate-loading {
-    0% {
-        transform: rotate(0deg);
-    }
-    100% {
-        transform: rotate(360deg);
-    }
-}
-
-@keyframes animate-loading {
-    0% {
-        transform: rotate(0deg);
-    }
-    100% {
-        transform: rotate(360deg);
-    }
-}
-
-
-/*--------------------------------------------------------------
   # Blog
   --------------------------------------------------------------*/
 
@@ -1072,70 +910,6 @@ p {
     margin-left: 5px;
 }
 
-
-/* Commonts */
-
-.comments {
-    background: #fff;
-}
-
-.entry-comments h6 {
-    margin-right: 10px;
-    font-size: 13px;
-    letter-spacing: 0.1em;
-    font-weight: 500;
-}
-
-.entry-comments-item {
-    margin-top: 40px;
-    padding-bottom: 40px;
-    border-bottom: 1px solid #f2f2f2;
-}
-
-.entry-comments-avatar {
-    position: absolute;
-    display: block;
-    border-radius: 50%;
-    width: 60px;
-    height: 60px;
-}
-
-.entry-comments-body {
-    padding-left: 86px;
-}
-
-.entry-comments-author {
-    margin-right: 10px;
-    font-size: 13px;
-    color: #292929;
-    letter-spacing: 0.1em;
-    font-weight: 500;
-}
-
-.rep {
-    font-size: 13px;
-    color: #292929;
-    letter-spacing: 0.1em;
-    font-weight: 500;
-    text-transform: capitalize;
-}
-
-.entry-comments span a {
-    font-size: 13px;
-    color: #999;
-}
-
-.entry-comments-reply {
-    padding-left: 10%;
-}
-
-
-/* Commonts form */
-
-.cmt {
-    background: #fff;
-}
-
 blockquote {
     padding: 40px;
     background-color: #f2f2f2;
@@ -1143,6 +917,13 @@ blockquote {
     border: none;
     border-left: 4px solid #b8a07e;
 }
+
+#imagem-principal {
+    max-width: -webkit-fill-available;
+}
+
+
+/* max-width: -webkit-fill-available; */
 
 
 /*--------------------------------------------------------------
