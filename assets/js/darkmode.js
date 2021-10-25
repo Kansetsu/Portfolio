@@ -7,10 +7,10 @@ document.getElementById('botao').onclick = function() {
     if (btn.value === 'off') {
         img.src = './assets/img/logo-dark-mode.png'
         btn.value = 'on'
-        btn.innerHTML = 'Light Mode'
+        btn.innerHTML = 'Light Mode ☀️'
     } else {
         img.src = './assets/img/logo.png'
         btn.value = 'off'
-        btn.innerHTML = 'Dark Mode'
+        btn.innerHTML = 'Dark Mode 🌙'
     }
 }
