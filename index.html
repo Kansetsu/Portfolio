@@ -15,12 +15,12 @@
     <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
 
     <!-- Vendor CSS Files -->
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
     <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
     <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
     <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
     <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
 
 
     <!-- Template Main CSS File -->
@@ -76,7 +76,7 @@
     <main id="main">
 
         <!-- ======= About Section ======= -->
-        <div id="about" class="paddsection" data-aos="fade-up" data-aos-delay="250">
+        <div id="about" class="paddsection" data-aos="fade-down" data-aos-delay="50">
             <div class="container">
                 <div class="row justify-content-between">
 
@@ -106,7 +106,7 @@
         <!-- End About Section -->
 
         <!-- ======= Services Section ======= -->
-        <div id="services" data-aos="fade-left" data-aos-delay="250">
+        <div id="services" data-aos="fade-up" data-aos-delay="250">
             <div class="container">
 
                 <div class="services-slider swiper">
@@ -201,8 +201,70 @@
 
 
 
+        <!-- ======= Portfolio Section ======= -->
+        <div id="portfolio" class="paddsection" data-aos="fade-up" data-aos-delay="250">
+
+            <div class="container">
+                <div class="section-title text-center">
+                    <h2>Meu Portifólio</h2>
+                </div>
+            </div>
+
+            <div class="container">
+
+                <div class="row">
+                    <div class="col-lg-12 d-flex justify-content-center">
+                        <ul id="portfolio-flters">
+                            <li data-filter="*" class="filter-active">Todos</li>
+                            <li data-filter=".filter-app">Aplicações</li>
+                            <li data-filter=".filter-web">Web</li>
+                            <li data-filter=".filter-tips">Dicas</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="row portfolio-container">
+
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+                        <a href="portifolio-beleza.html"><img src="assets/img/portifolio/portifolio1.png" class="img-fluid" alt=""></a>
+                        <div class="portfolio-info">
+                            <h4>Loja de Beleza</h4>
+                            <p>Loja simples feita com bootstrap</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+                        <a href="portifolio-conectados.html"><img src="assets/img/portifolio/portifolio2.png" class="img-fluid" alt=""></a>
+                        <div class="portfolio-info">
+                            <h4>Site de Instrução e Treinamento</h4>
+                            <p>Site Conectados</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-tips">
+                        <a href="#"><img src="assets/img/portifolio/portifolio3.png" class="img-fluid" alt=""></a>
+                        <div class="portfolio-info">
+                            <h4>Dicas sobre funcionalidades</h4>
+                            <p>Em construção...</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                        <a href="#"><img src="assets/img/portifolio/portifolio3.png" class="img-fluid" alt=""></a>
+                        <div class="portfolio-info">
+                            <h4>App feito em Java</h4>
+                            <p>Em construção...</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <!-- End Portfolio Section -->
+
+
         <!-- ======= Journal/Blog Section ======= -->
-        <div id="journal" class="text-left paddsection" data-aos="zoom-out-down" data-aos-delay="250">
+        <div id="journal" class="text-left paddsection" data-aos="fade-up" data-aos-delay="250">
 
             <div class="container">
                 <div class="section-title text-center">
@@ -272,72 +334,9 @@
         <!-- End Journal Section -->
 
 
-
-        <!-- ======= Portfolio Section ======= -->
-        <div id="portfolio" class="paddsection" data-aos="fade-down" data-aos-delay="250">
-
-            <div class="container">
-                <div class="section-title text-center">
-                    <h2>Meu Portifólio</h2>
-                </div>
-            </div>
-
-            <div class="container">
-
-                <div class="row">
-                    <div class="col-lg-12 d-flex justify-content-center">
-                        <ul id="portfolio-flters">
-                            <li data-filter="*" class="filter-active">Todos</li>
-                            <li data-filter=".filter-app">Aplicações</li>
-                            <li data-filter=".filter-web">Web</li>
-                            <li data-filter=".filter-tips">Dicas</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="row portfolio-container">
-
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-                        <a href="portifolio-beleza.html"><img src="assets/img/portifolio/portifolio1.png" class="img-fluid" alt=""></a>
-                        <div class="portfolio-info">
-                            <h4>Loja de Beleza</h4>
-                            <p>Loja simples feita com bootstrap</p>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-                        <a href="portifolio-conectados.html"><img src="assets/img/portifolio/portifolio2.png" class="img-fluid" alt=""></a>
-                        <div class="portfolio-info">
-                            <h4>Site de Instrução e Treinamento</h4>
-                            <p>Site Conectados</p>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-tips">
-                        <a href="#"><img src="assets/img/portifolio/portifolio3.png" class="img-fluid" alt=""></a>
-                        <div class="portfolio-info">
-                            <h4>Dicas sobre funcionalidades</h4>
-                            <p>Em construção...</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-                        <a href="#"><img src="assets/img/portifolio/portifolio3.png" class="img-fluid" alt=""></a>
-                        <div class="portfolio-info">
-                            <h4>App feito em Java</h4>
-                            <p>Em construção...</p>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-
-        </div>
-        <!-- End Portfolio Section -->
-
-
         <!-- ======= Footer ======= -->
         <footer>
-            <div id="footer" class="text-center">
+            <div id="footer" class="text-center" data-aos="fade" data-aos-delay="100">
                 <div class="container">
                     <div class="socials-media text-center">
 
@@ -359,18 +358,14 @@
 
 
         <!-- Vendor JS Files -->
+        <script src="assets/vendor/aos/aos.js"></script>
         <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
         <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
         <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-        <script src="assets/vendor/php-email-form/validate.js"></script>
         <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
         <script src="assets/vendor/typed.js/typed.min.js"></script>
         <script src="https://kit.fontawesome.com/df0320ea55.js" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/gh/fcmam5/nightly.js@v1.0/dist/nightly.min.js"></script>
-        <script src="assets/vendor/aos/aos.js"></script>
-        <script>
-            AOS.init();
-        </script>
+
 
         <!-- Template Main JS File -->
         <script src="assets/js/script.js"></script>

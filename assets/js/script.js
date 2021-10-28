@@ -173,7 +173,7 @@
      * Testimonials slider
      */
     new Swiper('.services-slider', {
-        speed: 600,
+        speed: 1000,
         loop: true,
         autoplay: {
             delay: 5000,
@@ -241,10 +241,10 @@
      * Portfolio details slider
      */
     new Swiper('.portfolio-details-slider', {
-        speed: 400,
+        speed: 1000,
         loop: true,
         autoplay: {
-            delay: 5000,
+            delay: 20000,
             disableOnInteraction: false
         },
         pagination: {
@@ -252,6 +252,15 @@
             type: 'bullets',
             clickable: true
         }
+    });
+
+    window.addEventListener('load', () => {
+        AOS.init({
+            duration: 1000,
+            easing: 'ease-in-out',
+            once: false,
+            mirror: false
+        })
     });
 
 })()
