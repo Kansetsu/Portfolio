@@ -491,14 +491,16 @@ p {
 .hero-content .list-social li .fa-facebook,
 .fa-instagram,
 .fa-linkedin,
-.fa-github {
+.fa-github,
+.fa-envelope {
     color: #fff;
 }
 
 .hero-content .list-social li .fa-facebook:hover,
 .fa-instagram:hover,
 .fa-linkedin:hover,
-.fa-github:hover {
+.fa-github:hover,
+.fa-envelope:hover {
     color: #b8a07e;
     transition: ease-in-out 0.35s;
 }
