@@ -21,9 +21,12 @@
     <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
     <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
     <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <link href="assets/vendor/lightbox/css/lightbox.css" rel="stylesheet">
 
     <!-- Template Portifolio CSS File -->
     <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/blog.css">
+
 </head>
 
 <body>
@@ -36,9 +39,19 @@
             <nav id="navbar" class="navbar">
                 <ul>
                     <li><a class="nav-link scrollto active" href="#home">Home</a></li>
-                    <li><a class="nav-link scrollto" href="#topico1">Tópico 1</a></li>
-                    <li><a class="nav-link scrollto" href="#topico2">Tópico 2</a></li>
-                    <li><a class="nav-link scrollto " href="#topico3">Tópico 3</a></li>
+                    <li class="dropdown"><a href="#"><span>Tópicos</span> <i class="bi bi-chevron-down"></i></a>
+                        <ul>
+                            <li>
+                                <a class="nav-link scrollto" href="#first-topic">O que é o Notion?</a>
+                            </li>
+                            <li>
+                                <a class="nav-link scrollto" href="#second-topic">Onde baixar o Notion?</a>
+                            </li>
+                            <li>
+                                <a class="nav-link scrollto" href="#third-topic">Como eu uso o Notion</a>
+                            </li>
+                        </ul>
+                    </li>
                     <li><a class="nav-link scrollto" href="#footer">Contato</a></li>
                     <li>
                         <button id="botao" class="btn dark-btn inverted" type="button" value="off" style="border-radius: 50px;">Dark Mode 🌙</button>
@@ -60,28 +73,70 @@
                         <div class="container-main single-main">
                             <div class="col-md-12">
                                 <div class="block-main mb-30">
-                                    <img src="assets/img/blog/blog-post2.png" class="img-responsive" alt="reviews2" id="imagem-principal">
+                                    <img src="assets/img/blog/Notion/blog-notion-front.png" class="img-responsive" alt="reviews2" id="imagem-principal">
                                     <div class="content-main single-post padDiv">
                                         <div class="journal-txt">
-                                            <h4><a href="#">SO LETS MAKE THE MOST IS BEAUTIFUL</a></h4>
+                                            <h4><a href="#">NOTION: A MELHOR FERRAMENTA DE PRODUTIVIDADE</a></h4>
                                         </div>
                                         <div class="post-meta">
                                             <ul class="list-unstyled mb-0">
-                                                <li class="author">Por:<a href="https://www.linkedin.com/in/kansetsu/" target="_blank">Vinícius Andrade</a></li>
-                                                <li class="date">Data:<a>24 Outubro, 2021 01:58AM</a></li>
+                                                <li class="author">Por:<a href="https://www.linkedin.com/in/kansetsu/" target="_blank" style="color: #830404;">Vinícius Andrade</a></li>
+                                                <li class="date">Publicado:<a>31 Outubro, 2021 às 16:01</a></li>
                                             </ul>
                                         </div>
-                                        <p class="mb-30" data-aos="zoom-out-down" data-aos-delay="100">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,
-                                            as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for
-                                            'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
-                                        <p class="mb-30" data-aos="fade-left" data-aos-delay="400">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled
-                                            it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset
-                                            sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-                                        <blockquote data-aos="fade-right" data-aos-delay="400">If you are still looking for that one person who will change your life, take a look in the mirror.</blockquote>
-                                        <p class="mb-30" data-aos="fade-left" data-aos-delay="400">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney
-                                            College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.
-                                            Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular
-                                            during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+                                        <h5 class="title-topic" id="first-topic">O QUE É O NOTION?</h5>
+
+                                        <p class="mb-30" data-aos="zoom-out-down" data-aos-delay="100">
+                                            <a href="https://www.notion.so/product?utm_source=google&utm_campaign=2075789713&utm_medium=80211061801&utm_content=453572180157&utm_term=notion&targetid=aud-1053779029641:kwd-312974742&gclid=Cj0KCQjw_fiLBhDOARIsAF4khR097bw0RHFALvHZQetKh0-eXCG_lkUH9w1SiUQ4tGie8BQn_vPpULEaAoLiEALw_wcB"
+                                                style="color: rgb(72, 2, 75);" target="_blank">Notion</a> é uma aplicação que fornece componentes tais como notas, bases de dados, quadros (Kanban), wikis, calendários
+                                            e lembretes. Os usuários podem ligar estes componentes para criar os seus próprios sistemas de gerenciamento do conhecimento, tomada de notas, gerenciamento de dados, gerenciamento de projetos, entre outros.
+                                            Estes componentes e sistemas podem ser utilizados individualmente, ou em colaboração com outros.</p>
+                                        <h5 class="title-topic" id="second-topic" data-aos="fade-right" data-aos-delay="100">ONDE BAIXAR O NOTION?</h5>
+                                        <p class="mb-30" data-aos="fade-left" data-aos-delay="400">Você pode baixar no <a href="https://www.notion.so/product?utm_source=google&utm_campaign=2075789713&utm_medium=80211061801&utm_content=453572180157&utm_term=notion&targetid=aud-1053779029641:kwd-312974742&gclid=Cj0KCQjw_fiLBhDOARIsAF4khR097bw0RHFALvHZQetKh0-eXCG_lkUH9w1SiUQ4tGie8BQn_vPpULEaAoLiEALw_wcB"
+                                                style="color: rgb(72, 2, 75);" target="_blank">Notion</a> em seu próprio site. Lá você pode criar sua conta e fazer uso das, quase infinitas, ferramentas de produtividades que lá estão disponíveis. O <a href="https://www.notion.so/product?utm_source=google&utm_campaign=2075789713&utm_medium=80211061801&utm_content=453572180157&utm_term=notion&targetid=aud-1053779029641:kwd-312974742&gclid=Cj0KCQjw_fiLBhDOARIsAF4khR097bw0RHFALvHZQetKh0-eXCG_lkUH9w1SiUQ4tGie8BQn_vPpULEaAoLiEALw_wcB"
+                                                style="color: rgb(72, 2, 75);" target="_blank">Notion</a> está disponível para <a href="https://www.notion.so/mobile" style="color: rgb(72, 2, 75);" target="_blank">Android/IOS, </a> <a href="https://www.notion.so/desktop"
+                                                style="color: rgb(72, 2, 75);" target="_blank">Desktop</a> e está disponível também no navegador. </p>
+                                        <blockquote data-aos="fade-right" data-aos-delay="400"><img src="assets/img/blog/Notion/blog-post-notion2.png" alt="notion nownload" id="blog-img"></blockquote>
+                                        <h5 class="title-topic" id="third-topic" data-aos="fade-left" data-aos-delay="100">COMO EU USO O NOTION: </h5>
+                                        <p class="mb-30" data-aos="fade-right" data-aos-delay="400">No meu dia a dia eu uso o Notion para diversas tarefas: Organização das minhas atividades diárias, financeiras, os conteúdos da faculdade entre outras coisas que ainda estou planejando. O Notion se torna bastante
+                                            útil quando falamos de organização e produtividade. Nele facilmente você consegue adicionar tabelas, textos, imagens, checkboxes e elaborar um planejamente, seja ele qual for de forma simples e prática sem muito
+                                            esforço. <br>Também tem como você fazer coisas mais complexas, como relacionar tabelas, gerênciamentos de páginas, breadcrumbs entre outras coisas para deixar sua navegação e consumo das informações muito mais
+                                            bem elaborada. Como mostro nos exemplos abaixo, está meu planjemento pessoal de atividades. Vou deixar o
+                                            <a href="https://adhesive-turquoise-738.notion.site/Copy-of-My-Stuffs-c6bc0573d984429e87af4efd4ed605fd" style="color: rgb(72, 2, 75);" target="_blank">link</a> para que possam ver direto no Notion como funciona.
+                                            (Vocês vão observar que tem alguns dados fictícios, mas é apenas para exemplificar, tá ?<a class="inverted">🤭</a>)
+                                        </p>
+
+                                        <blockquote data-aos="fade-down" data-aos-delay="400" class="container">
+                                            <section id="portfolio-details" class="portfolio-details">
+                                                <div class="portfolio-details-slider swiper">
+                                                    <div class="swiper-wrapper align-items-center">
+
+                                                        <div class="swiper-slide">
+                                                            <a href="assets/img/blog/Notion/blog-post-notion- ilustration.jpg" data-lightbox="Exemplo de Template"> <img src="assets/img/blog/Notion/blog-post-notion- ilustration.jpg" alt="">
+                                                            </a>
+                                                        </div>
+
+                                                        <div class="swiper-slide">
+                                                            <a href="assets/img/blog/Notion/blog-post-notion-rotina2.png" data-lightbox="Exemplo de Template"><img src="assets/img/blog/Notion/blog-post-notion-rotina2.png" alt=""></a>
+
+                                                        </div>
+                                                        </a>
+                                                        <div class="swiper-slide">
+                                                            <a href="assets/img/blog/Notion/blog-post-notion-rotina1.png" data-lightbox="Exemplo de Template"> <img src="assets/img/blog/Notion/blog-post-notion-rotina1.png" alt=""></a>
+                                                        </div>
+
+                                                        <div class="swiper-slide">
+                                                            <a href="assets/img/blog/Notion/blog-post-notion-rotina-college.png" data-lightbox="Exemplo de Template"> <img src="assets/img/blog/Notion/blog-post-notion-rotina-college.png" alt=""></a>
+                                                        </div>
+
+                                                        <div class="swiper-slide">
+                                                            <a href="assets/img/blog/Notion/blog-post-notion-rotina-college2.png" data-lightbox="Exemplo de Template"> <img src="assets/img/blog/Notion/blog-post-notion-rotina-college2.png" alt=""></a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="swiper-pagination"></div>
+                                                </div>
+                                            </section>
+                                        </blockquote>
                                     </div>
                                 </div>
                             </div>
@@ -153,13 +208,12 @@
                                         </div>
                                     </div>
                                 </div>
-
                             </div>
                             <!-- End Journal Section -->
 
                             <!-- ======= Footer ======= -->
                             <footer>
-                                <div id="footer" class="text-center" data-aos="fade" data-aos-delay="100">
+                                <div id="footer" class="text-center">
                                     <div class="container">
                                         <div class="socials-media text-center">
 
@@ -186,6 +240,7 @@
                             <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
                             <script src="assets/vendor/typed.js/typed.min.js"></script>
                             <script src="https://kit.fontawesome.com/df0320ea55.js" crossorigin="anonymous"></script>
+                            <script src="assets/vendor/lightbox/js/lightbox-plus-jquery.js"></script>
                             <!-- Template Main JS File -->
                             <script src="assets/js/script.js"></script>
                             <script src="assets/js/darkmode.js"></script>
