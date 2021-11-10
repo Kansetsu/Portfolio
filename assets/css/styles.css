@@ -769,6 +769,11 @@ p {
     padding: 0;
 }
 
+#img-portifolio {
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    border-radius: 30px;
+}
+
 
 /*--------------------------------------------------------------
   # Journal
@@ -834,6 +839,11 @@ p {
 
 #blog-img {
     max-width: -webkit-fill-available;
+}
+
+#img-journal {
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    border-radius: 25px;
 }
 
 
