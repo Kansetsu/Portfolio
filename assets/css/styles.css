@@ -522,6 +522,8 @@ p {
 #about .div-img-bg {
     padding-bottom: 30px;
     border: 20px solid #b8a07e;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
 }
 
 #about .div-img-bg .about-img img {
@@ -532,6 +534,7 @@ p {
     height: 400px;
     -o-object-fit: cover;
     object-fit: cover;
+    border-radius: 9px;
 }
 
 #about .about-descr .p-heading {
