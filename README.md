@@ -6,11 +6,11 @@ Link para visualização do site: https://kansetsu.netlify.app/
 # Bibliotecas utilizadas no projeto 📚
 
 - [AOS (Animate On Scroll)](https://github.com/michalsnik/aos) - Biblioteca que gera as animações conforme você navega na página.
-- [Isotope Layout](https://github.com/metafizzy/isotope) - Biblioteca utilizada para filtrar elementos da página. No caso foi utilizado como filtro para os meus projetos
-- [gLightbox](https://github.com/biati-digital/glightbox) - Biblioteca que gera slides nas imagens e player em vídeos da página. No meu caso foi utilizada para gerar slides nas imagens do portfólio
+- [Isotope Layout](https://github.com/metafizzy/isotope) - Biblioteca utilizada para filtrar elementos da página. No caso foi utilizado como filtro para os meus projetos.
+- [gLightbox](https://github.com/biati-digital/glightbox) - Biblioteca que gera slides nas imagens e player em vídeos da página. No meu caso foi utilizada para gerar slides nas imagens do portfólio.
 - [Swiper](https://github.com/nolimits4web/swiper/) - Biblioteca utilizada para criar carousel. 
 - [Typed](https://github.com/mattboldt/typed.js/) - Biblioteca que gera o efeito de digitação na _Hero Section_.
-- [Bootstrap Icons](https://icons.getbootstrap.com/) & [Font Awesome](https://fontawesome.com/) - Biblioteca de icones utilizados no projeto
+- [Bootstrap Icons](https://icons.getbootstrap.com/) & [Font Awesome](https://fontawesome.com/) - Biblioteca de icones utilizados no projeto.
 
 # Tecnologias Utilizadas 📲
 
