@@ -383,7 +383,7 @@ p {
 }
 
 .mobile-nav-toggle.bi-x {
-    color: #fff;
+    color: rgb(0, 0, 0);
 }
 
 @media (max-width: 991px) {
